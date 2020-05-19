@@ -80,7 +80,7 @@ data = sales_data[cols]
 target = sales_data['Opportunity Result']
 print(data.head(n=2))
 
-#Comentario - Nós creamos prever o Oppurtunity Result e por isso temos de tirar dos dados
+#Comentario - Nós queremos prever o Oppurtunity Result e por isso temos de tirar dos dados
 #Comentario - Normalmente guarda-se 80% para treinar e os outros 20% para teste
 #Comentario - Mas agora vai se usar 70% (Trainning data) e 30%(Test Data)
 
